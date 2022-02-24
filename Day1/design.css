@@ -1,0 +1,133 @@
+* {
+  box-sizing: border-box;
+}
+.go-back {
+    width: 87px;
+    height: 15px;
+    margin-left: 482px;
+    font-family: inter;
+    color: #000000;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.product-name-card {
+  width: 415px;
+  
+  margin-left: 67px;
+  background-color: white;
+  /* padding-left: 1px; */
+  padding-top: 90px;
+  padding-bottom: 30px;
+  /* padding-right: 1px; */
+  display: inline-block;
+}
+
+.product-name-card-title {
+  color: #363A41;
+  font-family: inter;
+  font-weight: 200;
+  font-size: 36px;
+}
+.product-name-card-title-sub {
+  color: #363A41;
+  font-family: inter;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+.price-card {
+  width: 103px;
+  background-color: white;
+  font-family: inter;
+  font-size: 18px;
+  padding-top: 20px;
+  padding-bottom: 40px;
+  color: #363A41;
+  font-weight: 700;
+  font-style: normal;
+  display: block;
+  margin-top: 31px;
+  margin-left: 71px;
+}
+
+.lorem {
+    width: 346px;
+    height: 131px;
+    font-family: inter;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.3);
+    margin-top: 10px;
+    margin-left: 71px;
+}
+
+.size {
+    width: 34px;
+    height: 15px;
+    font-family: inter;
+    color: rgba(0, 0, 0, 0.55);
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 34px;
+    margin-left: 77px;
+}
+.medium {
+    width: 98px;
+    height: 37px;
+    font-family: inter;
+    font-size: 24px;
+    color: rgba(0, 0, 0, 0.85);
+    font-weight: 700;
+    margin-top: 19px;
+    display: inline-block;
+    margin-left: 3px;
+}
+
+.add-to-cart {
+    width: 147px;
+    height: 48px;
+    background-color: #000000;
+    font-family: inter;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-style: normal;
+    margin-top: 1px;
+    margin-left: 71px;
+    display: block;
+    
+}
+
+.type-card {
+    background-color: white;
+    width: 88px;
+    display: block;
+    margin-top: 30px;
+    margin-left: 466px;
+}
+
+.mens {
+    font-family: inter;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.55);
+    padding-left: 50px;
+}
+.cotton {
+    font-family: inter;
+    font-size: 12px;
+    color: rgba(0, 0, 0, 0.55);
+    padding-left: 10px;
+}
+
+.cart {
+    margin-left: 493px;
+    display: block
+}
+.image {
+    display: inline-block; 
+}
+
+.tulisan {
+    display: inline-block;
+}
+
+

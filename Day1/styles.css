@@ -1,0 +1,89 @@
+h1 {
+  color: rgb(192, 90, 218);
+}
+
+#h1 {
+  color: brown;
+}
+/* kenapa dia di web pakenya brown karena bobot specificity nya paling gede */
+
+* {
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgb(106, 176, 236);
+  box-sizing: border-box;
+  /* supaya width dan height tidak terpengaruh sama padding */
+}
+/* bintang itu global selector */
+
+#message {
+  color: rgb(228, 100, 122);
+}
+
+#blackText {
+  color: black;
+}
+
+#blackFont {
+  color: black;
+}
+
+.text-black {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+/* bikin class, nanti di html scriptnya kasih class di tagnya. */
+
+.text-style-italic {
+  font-style: italic;
+}
+
+.card {
+  border: 2px solid lightpink;
+  padding: 16px 32px;
+  color: rgb(21, 27, 21);
+  border-top-right-radius: 8px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  width: 300px;
+  height: 300px;
+  display: inline-block;
+  /* dikasih inline-block supaya si div jadi bisa samping-sampingan */
+  /* div sifatnya = block */
+  /* span sifatnya = inline */
+  /* kalo sifatnya block, dia posisinya ga bisa samping-sampingan, tapi bakal turun ke bawah */
+  /* kalo sifatnya inline, dia posisinya bisa samping-sampingan */
+
+  overflow: scroll;
+  /* dikasih overflow: scroll biar, konten yang kepanjangan bisa discroll */
+}
+
+.separator {
+  margin-top: 10px;
+}
+
+.left-separator {
+  margin-left: 25px;
+}
+
+.black-card {
+  width: 215px;
+  height: 114px;
+  background-color: black;
+  padding-top: 16px;
+  padding-left: 18px;
+}
+
+.black-card-title {
+  font-size: 9px;
+  font-weight: 900;
+  color: white;
+  text-transform: uppercase;
+}
+
+.black-card-sub {
+  margin-top: 4px;
+  font-size: 7px;
+  font-weight: 500;
+  color: white;
+}
