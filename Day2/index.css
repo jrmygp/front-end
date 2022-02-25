@@ -1,0 +1,14 @@
+/* bedanya padding sama margin */
+
+.kiri img {
+  /* buat akses img di dalam kelas kiri */
+}
+
+.cart-icon {
+  background-color: black;
+}
+
+.cart-icon:hover {
+  cursor: pointer;
+  background-color: aqua;
+}
