@@ -1,0 +1,16 @@
+
+.flex-container {
+    display: flex;
+    border: 1px solid black;
+    height: 500px;  
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: rgb(58, 58, 196);
+    height: 100px;
+    width: 100px;
+    border: 1 solid black;
+    margin-left: 10px;
+}
